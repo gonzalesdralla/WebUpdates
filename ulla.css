@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "PT Sans", sans-serif;
+	word-spacing: 3px;
+	letter-spacing:1px;
+	background-color: black;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+.navbg{
+	background-color: black;
+}
+
+.container{
+	padding: 0 100px 0 100px;
+	background-color: black;
+}
+
+
+.navul{
+	display: flex;
+	flex-wrap: wrap;
+	float: right;
+	
+}
+
+li{
+	list-style: none;
+	margin-left: 20px;
+}
+a{
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	background-color: gray;
+	
+
+}
+
+body{
+	background-color: black;
+	color: white;
+}
+
+
+header {
+	padding: 20px 0;
+}
+
+.navbarstyle{
+	background-color: black;
+	padding:10px;
+	color: white;
+	
+}
+
+header h3,
+header a,
+.text p,
+.about h3,
+.skills h3,
+.portfolio h3,
+.contact h3{
+	color: pink;
+}
+
+.text{
+	margin-top: 100px;
+}
+
+.text h1{
+	color: white;
+	font-size: 3rem;
+	cursor: context-menu;
+}
+
+.text span{
+	display: inline-block;
+}
+
+span:hover{
+	color: pink;
+	transition: all .5s;
+}
+
+.text a{
+	width:25%;
+	text-align:center;
+	color: pink;
+	border-style: solid;
+	background-color: black;
+	margin:2% 0 0 10%;
+}
+
+.mypic img{
+	max-width: 100%;
+	height: auto;
+	
+}
+
+.about h3,
+.skills h3,
+.portfolio h3,
+.contact h3{
+	font-size:2em;
+	margin: 10px 0 10px 0;
+	
+}
+
+.about,
+.skills,
+.portfolio{
+	color: white;
+	line-height:30px;
+}
+
+.contact{
+	line-height:30px;
+	margin-bottom:60px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
