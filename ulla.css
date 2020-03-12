@@ -2,10 +2,11 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "PT Sans", sans-serif;
+	font-family: "Tahoma", Geneva, sans-serif;
 	word-spacing: 3px;
 	letter-spacing:1px;
 	background-color: black;
+	
 }
 html{
 	scroll-behavior: smooth;
@@ -16,15 +17,12 @@ html{
 }
 
 .container{
-	padding: 0 100px 0 100px;
+	padding: 100px	 100px 0 100px;
 	background-color: black;
 }
 
-
 .navul{
-	display: flex;
-	flex-wrap: wrap;
-	float: right;
+	margin-left: 4in;
 	
 }
 
@@ -32,7 +30,7 @@ li{
 	list-style: none;
 	margin-left: 20px;
 }
-a{
+.text a{
 	text-decoration: none;
 	display: block;
 	padding: 5px;
@@ -59,10 +57,10 @@ header {
 }
 
 header h3,
-header a,
 .text p,
 .about h3,
 .skills h3,
+.gallery h3,
 .portfolio h3,
 .contact h3{
 	color: pink;
@@ -102,35 +100,57 @@ span:hover{
 	
 }
 
-.about h3,
-.skills h3,
-.portfolio h3,
-.contact h3{
-	font-size:2em;
-	margin: 10px 0 10px 0;
+.appletter{
+	border: white solid;
+	line-height: 1em;
+	word-spacing: 3px;
+	color:white;
+	padding: 30px 20px 20px 20px;
 	
-}
+	}
 
 .about,
 .skills,
-.portfolio{
+.gallery,
+.portfolio,
+.contact{
 	color: white;
 	line-height:30px;
+	
 }
 
-.contact{
-	line-height:30px;
-	margin-bottom:60px;
+.about h3,
+.skills h3,
+.gallery h3,
+.portfolio h3,
+.contact h3{
+	line-height: 30px;
+	margin-bottom: 60px;
 	text-align: center;
+	font-size: 2em;
+	margin: 10px 0 10px 0;
+}
+.styloo{
+	border-radius: 8px;
+}
+
+.butt{
+	color:white;
 }
 
 
+.pads{
+	padding: 20px;
+}
 
+.headerpads{
+	padding-bottom: 50px;
+}
 
-
-
-
-
+form{
+	text-align: center;
+	
+}
 
 
 
